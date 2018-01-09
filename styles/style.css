@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border:1px solid black;
+}
+
+
+/*INTRO*/
+.intro {
+  position: relative;
+  margin: 2%;
+}
+
+.first {
+  max-width: 100%;
+}
