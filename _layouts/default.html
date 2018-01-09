@@ -24,11 +24,25 @@
   <body>
 
     <header>
+      <div class="navContainer">
+        <div class="fixed">
+          <div class="bg-menu transition"></div>
+          <nav id="sticky-menu" class="menu grid-spaceBetween">
+            <div class="col-2 logoDiv">
+              <a href="#home" class="logo"><img src="images/logo_klein.png" alt="my logo"></a>
+            </div>
+            <div class="col-5 menuLinks">
+              <a href="#about">ABOUT</a>
+              <a href="#work">WORK</a>
+              <a href="#contact">CONTACT</a>
+            </div>
+          </nav>
+        </div>
     </header>
 
 {{content}}
 
-    <footer>
+    <footer id="contact">
       <p>flyawayphoto.com &#169;
  Copyright 2018</p>
     </footer>
