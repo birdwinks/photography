@@ -59,9 +59,16 @@ nav {
 	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
 }
 
-.container img {
-  max-width: 100%;
-  max-height: inherit;
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 
@@ -124,7 +131,7 @@ nav {
 .row {
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
-	padding: 0px;
+	padding: 10px 0px 0px 0px;
 	margin: 0px;
 }
 
