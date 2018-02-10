@@ -27,9 +27,6 @@ h3 {
 a {
   text-decoration: none;
 }
-nav {
-  width: 100%;
-}
 
 
 /*NAVIGATION*/
@@ -46,6 +43,73 @@ nav {
   max-width: 100%;
   padding: 2% 0 0 15%;
 }
+
+
+/*INTRO*/
+.gallery {
+  position: relative;
+  margin: 2% 5% 2% 5%;
+}
+
+.photo {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+/* Two Columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* One Column */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
